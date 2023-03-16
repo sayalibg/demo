@@ -16,9 +16,11 @@ def main():
     print(__name__)
     func()
 
+def outer_func():
+    print("inside outer function")
+
 if __name__ == "__main__":
     main()
-
 
 
 
